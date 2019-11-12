@@ -1,3 +1,7 @@
+/*Custom Font*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +13,13 @@ body {
   overflow: hidden;
   /* High perspective to give the UL an isometric look */
   perspective: 3000;
+}
+
+h1 {
+  color: white;
+  font: 45px 'Open sans';
+  width: 500px;
+  padding: 50px;
 }
 
 .grid {
@@ -45,6 +56,7 @@ body {
   right: 0;
   bottom: 0;
   background: inherit;
+  background-size: cover;
 }
 
 /* Left Side */
@@ -64,7 +76,7 @@ body {
   top: auto;
   bottom: 0;
   /* Background fix -start the background from the bottom */
-  background-position: bottom-center;
+  background-position: bottom center;
 }
 
 /* Shadow time - all pseudo elements are used so add HTML element in each LI */
@@ -81,31 +93,27 @@ body {
   transform: translateZ(-50px);
 }
 
-/* temporary */
-li {
-  background: #999;
-}
 /* Add a light gradient to the sides to give some lighting effect */
 .one {
   background:
-  linear-gradient(45deg, rbga(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-  url("http://thecodeplayer.com/uploads/media/m1.png");
+    linear-gradient(45deg, rgba(0,0,0,0), rgba(0, 0, 0, 0.5)),
+    url("http://thecodeplayer.com/uploads/media/m1.png");
 }
 
 .two {
   background:
-  linear-gradient(45deg, rbga(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-  url("http://thecodeplayer.com/uploads/media/m2.png")
+    linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,0.5)),
+    url("http://thecodeplayer.com/uploads/media/m2.png");
 }
 
 .three {
   background:
-  linear-gradient(45deg, rbga(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-  url("http://thecodeplayer.com/uploads/media/m3.png");
+    linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,0.5)),
+    url("http://thecodeplayer.com/uploads/media/m3.png");
 }
 
 .four {
   background:
-  linear-gradient(45deg, rbga(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-  url("http://thecodeplayer.com/uploads/media/m4.png")
+    linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,0.5)),
+    url("http://thecodeplayer.com/uploads/media/m4.png");
 }
