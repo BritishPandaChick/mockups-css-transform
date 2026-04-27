@@ -1,11 +1,14 @@
 # Perspective Mockups using CSS3 3D Transforms
-CodePlayer Perspective Mockups using CSS3 3D Transforms project. Made with HTML and CSS.
+An example of CSS #D transforms with mockups  
+
+## Tech Stack
+- HTML
+- CSS
 
 ## Instructions
-Clone repo or download zip file. Open index.html file in your browser.
-
-## Contributions
-This code is based on starter code from TheCodePlayer.com. Therefore I will not be accepting any pull requests.
+1. Clone repo or download zip file. 
+2. Open index.html file in your browser.
+3. You will see a headline near the top left of the page with 4 mobile app mockups next to see other.
 
 ## Acknowledgements
 * TheCodePlayer.com
